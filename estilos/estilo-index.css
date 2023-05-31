@@ -17,11 +17,9 @@
     --font2: 'Caveat', 'cursive'; 
 }
 
-w
-
 body {
     position: relative;
-    background-image: linear-gradient(to top, var(--cor1), var(--cor5));
+    background-color: var(--cor5);
 }
 
 header {
@@ -83,12 +81,15 @@ main {
 }
 
 #promo1 {
+    margin-bottom: 0%;
+    
 
 background-image: url('../Imagens/sublime-bacon-500.jpg');
 background-position:center center ;
 }
 
 #promo2 {
+    margin-top: 0%;
 
     background-image: url('../Imagens/saladinha-monter-500.jpg');
     background-position: center center;
@@ -97,14 +98,37 @@ background-position:center center ;
 }
 
 main div {
-    width: 200px;
-    color: var(--cor5);
+    padding: 20px;
+    width: 370px;
+    
+   
+
+}
+
+main .info {
+    padding: 20px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.646);
+}
+
+main h1 {
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: white;
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 2.5em;
 }
 
 
 
 #pedido {
-    border: solid 2px yellow;
+    border: solid 2px black;
 }
 
 footer {
