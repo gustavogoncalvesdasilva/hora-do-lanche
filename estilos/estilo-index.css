@@ -77,8 +77,6 @@ main {
     background-size: cover;
     background-attachment: fixed;
     margin: 10px 0px 10px 0px;
-    position: relative;
-
 }
 
 #promo1 {
@@ -129,6 +127,9 @@ main h1 {
 
 
 #pedido {
+    width: 600px;
+    padding: 10px;
+    margin: auto;
     border: solid 2px black;
 }
 
