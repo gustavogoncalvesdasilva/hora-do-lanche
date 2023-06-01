@@ -43,19 +43,22 @@
                     </div>                
         </section>
         <section id="pedido">
-            <form action="" method="post">
-                <div>
+            <form action="" method="post" autocomplete="on">               
+                <p>
                     <label for="icliente">Nome</label>
-                    <input type="text" name="cliente" id="icliente" placeholder="Nome completo">
-                </div>
-                <div>
+                    <input type="text" name="cliente" id="icliente" requerid autocomplete="name">
+                </p>               
+                
+                <p>
                     <label for="itel">Telefone</label>
-                    <input type="tel" name="tel" id="itel">
-                </div>
-                <div>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}\d{4}$" placeholder="(xx)xxxx-xxxx">
+                </p>                
+               
+                <p>
                     <label for=""></label>
                     <input type="">
-                </div>
+                </p>
+            
             </form>
 
         </section>
