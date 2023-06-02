@@ -44,25 +44,108 @@
         </section>
         <section id="pedido">
             <form action="" method="post" autocomplete="on">               
-                <p>
-                    <label for="icliente">Nome</label>
-                    <input type="text" name="cliente" id="icliente" requerid autocomplete="name">
-                </p>               
+                <fieldset>
+                    <legend>Dados do Cliente</legend>
+                    <p>
+                        <label for="icliente">Nome</label>
+                        <input type="text" name="cliente" id="icliente" requerid autocomplete="name">
+                    </p>
+                    
+                    <p>
+                        <label for="itel">Telefone</label>
+                        <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}\d{4}$" placeholder="(xx)xxxx-xxxx">
+                    </p>
+                </fieldset>
                 
                 <p>
-                    <label for="itel">Telefone</label>
-                    <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}\d{4}$" placeholder="(xx)xxxx-xxxx">
-                </p>
-                
-                <p>
-                    <label for="ilach">Lanche</label>
+                    <fieldset>
+                        <label for="ilach">Lanche</label>
+                        <select name="lanch" id="ilanch" placeholder="--Selecione Um--">
+                        
+                            <option value="NO">--Selecione--</option>
+                            <option value="BS">Bacon Sublime</option>
+                            <option value="SM">Saladinha Monster</option>
+                            <option value="OGC">Ovos da Golden Chicken</option>
+                            <option value="DE">Dog e Eu</option>
+                            <option value="TJM">Tudo Junto e Mixed</option>
+                        
+                            <optgroup label="Bebidas">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </optgroup>
+                            <optgroup label="Sobrimesas">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </optgroup>
+                        </select>
+                        
+                                        </p>
+                                       
+                                        <p>
+                        <label for="iq1">Quant.</label>
+                        <input type="number" name="q1" id="iq1" max="10" min="1" required>
+                                        </p>
+                        
+                                        <p>
+                        
+                        <input type="radio" name="acomp" id="iscombo">
+                        <label for="iscombo">Só o Lanche</label>
+                        <input type="radio" name="acomp" id="icombo">
+                        <label for="icombo">Com Combo</label><br>
+                        <label for="iq2">Quant.</label>
+                        <input type="number" name="q2" id="iq2" min="0" max="10">
+                        
+                        
+                        
+                                        </p>
+                    </fieldset>
 
-                </p>
-               
-                <p>
-                    <label for="iq1">Quant.</label>
-                    <input type="number" name="q1" id="iq1" max="10" min="1" required>
-                </p>
+                <fieldset>
+                    <legend>Batatas</legend>
+                    <p>
+                        <label for="ibat">Tamanho</label>
+                            <select name="bat" id="ibat">
+                                <option value="NO">--Selecione--</option>
+                                <option value="BP">Fome das 8h (P)</option>
+                                <option value="BM">Fome das 12h (M)</option>
+                                <option value="BG">Fome das 16h (G)</option>
+                                <option value="BGG">Fome das 20h (GG)</option>
+                            </select>
+                    
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Bebidas</legend>
+                    <p>
+                        <label for="ibeb">Sabores</label>
+                            <select name="beb" id="ibeb">
+                                <option value="NO">--Selecione--</option>
+                                <optgroup label="Suco">
+                                    <option value="Verm">Vermelho</option>
+                                    <option value="Amar">Amarelo</option>
+                                    <option value="Verd">Verde</option>
+                                    <option value="Roxo">Roxo</option>
+                                    <option value="Lara">Laranja</option>
+                                </optgroup>
+                                <optgroup label="Refrigerantes">
+                                    <option value="CC">Coca-Cola</option>
+                                    <option value="FU">Fanta Uva</option>
+                                    <option value="FM">Fanta MaraCuja</option>
+                                    <option value="FL">Fanta Laranja</option>
+                                    <option value="KU">Kuat</option>
+                                </optgroup>
+                            </select>
+                    </p>
+                </fieldset>
             
             </form>
 

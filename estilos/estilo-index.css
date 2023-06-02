@@ -127,11 +127,19 @@ main h1 {
 
 
 #pedido {
-    width: 600px;
+    width: 800px;
     padding: 10px;
     margin: auto;
     border: solid 2px black;
 }
+
+#pedido fieldset {
+    padding: 10px;
+ }
+
+ #pedido input, label {
+    
+ }
 
 footer {
 
