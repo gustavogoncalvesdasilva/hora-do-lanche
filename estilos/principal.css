@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* moble firts */
+
+* { padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif;}
+
+html {
+    width: 100vw;
+    height: 100vw;
+}
+
+:root {
+    --cor1:#8C1F28;
+    --cor2:#591C21;
+    --cor3:#044040;
+    --cor4:#D92525;
+    --cor5:#F2F2F2;
+
+    --font1: 'Lobster Two', 'cursive';
+    --font2: 'Caveat', 'cursive'; 
+}
+
+header {
+    position: sticky;
+    top: -1px;
+    
+    background-image: linear-gradient(to bottom, var(--cor3), transparent);
+    
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+header h1 {
+    font-family: var(--font1);
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;  
+}
+
+header h1 img {
+    width: 50px;
+    border-radius: 20%;
+}
+
+#m1 {
+    text-align: center;
+}
+
+#m1 a {
+    font-family: var(--font1);
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: var(--cor2);
+    border-radius: 20%;
+    opacity: 80%;
+}
+
+#m1 a:hover {
+    font-weight: bolder;
+    text-decoration: underline; 
+}
+
+#m2{ display: none;}
+
+
