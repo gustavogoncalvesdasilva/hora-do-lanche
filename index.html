@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snack Time</title>
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/estilo-index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
     <link rel="stylesheet" href="estilos/principal.css">
 </head>
 <body>
     <header>
         <h1><img src="Imagens/logo-hedear-100.png" alt="logo"> Snack Time</h1>
-    
+        <span id="burguer"  class="material-icons" onclick="clickMenu()">menu</span>
         <menu id="m1">
-            <a href="#">Lanches</a>
-            <a href="#">Batata</a>
-            <a href="#">Bebidas</a>
-            <a href="#">Sobrimesas</a>
+            <ul>
+                <li><a href="#">Lanches</a></li>
+                <li><a href="#">Batata</a></li>
+                <li><a href="#">Bebidas</a></li>
+                <li><a href="#">Sobrimesas</a></li>
+            </ul>
         </menu>
 
         <menu id="m2">
@@ -32,16 +36,15 @@
     </header>
     <main>
         <section id="promo1" class="promo">
-            
-                <div>
-                    <h1 >Sublime Bacon</h1>
-                    <p class="info">
-                        Ingredientes: Pão de brioche, maionese artezanal, hamburgue 120g, bacon, queijo cheddar, alface, tomate, cebola roxa e picles.
-                        <br>
-                        <R1><strong>39,90</strong></R1> com o combo <R1><strong>50,00</strong></R1>
-                        combo acompanha Batata (média) e Suco (médio) ou Refrigerante (600ml).
-                    </p>
-                </div>
+                    <div>
+                        <h1 >Sublime Bacon</h1>
+                        <p class="info">
+                            Ingredientes: Pão de brioche, maionese artezanal, hamburgue 120g, bacon, queijo cheddar, alface, tomate, cebola roxa e picles.
+                            <br>
+                            <R1><strong>39,90</strong></R1> com o combo <R1><strong>50,00</strong></R1>
+                            combo acompanha Batata (média) e Suco (médio) ou Refrigerante (600ml).
+                        </p>
+                    </div>
         </section>
         <section id="promo2" class="promo">                
                     <div>
@@ -170,6 +173,14 @@
         </div>
         <p>esste site foi criado para fins educativos</p>
     </footer>
-    
+    <script>
+        function clickMenu() {
+            if (m1.style.display == 'block') {
+                m1.style.display = 'none'
+            } else {
+                m1.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
