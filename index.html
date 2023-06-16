@@ -36,26 +36,26 @@
     </header>
     <main>
         <section id="promo1" class="promo">
-                    <div>
-                        <h1 >Sublime Bacon</h1>
-                        <p class="info">
-                            Ingredientes: Pão de brioche, maionese artezanal, hamburgue 120g, bacon, queijo cheddar, alface, tomate, cebola roxa e picles.
-                            <br>
-                            <R1><strong>39,90</strong></R1> com o combo <R1><strong>50,00</strong></R1>
-                            combo acompanha Batata (média) e Suco (médio) ou Refrigerante (600ml).
-                        </p>
-                    </div>
+            <div>
+                <h1 >Sublime Bacon</h1>
+                    <p class="info">
+                        Ingredientes: Pão de brioche, maionese artezanal, hamburgue 120g, bacon, queijo cheddar, alface, tomate, cebola roxa e picles.
+                        <br>
+                        <R1><strong>39,90</strong></R1> com o combo <R1><strong>50,00</strong></R1>
+                        combo acompanha Batata (média) e Suco (médio) ou Refrigerante (600ml).
+                    </p>
+            </div>
         </section>
         <section id="promo2" class="promo">                
-                    <div>
-                        <h1>Saladinha Monster</h1>
-                        <p class="info">
-                            Ingredientes: Pão de brioche, maionese artezanal, hamburgue 90g, peito de frango empanado, queijo prato, alface, tomate e cebola.
-                            <br>
-                            <R1><strong>39,90</strong></R1> com o combo <R1><strong>50,00</strong></R1>
-                            combo acompanha Batata (média) e Suco (médio) ou Refrigerante (600ml).
-                        </p>
-                    </div>                
+            <div>
+                <h1>Saladinha Monster</h1>
+                    <p class="info">
+                        Ingredientes: Pão de brioche, maionese artezanal, hamburgue 90g, peito de frango empanado, queijo prato, alface, tomate e cebola.
+                        <br>
+                        <R1><strong>39,90</strong></R1> com o combo <R1><strong>50,00</strong></R1>
+                        combo acompanha Batata (média) e Suco (médio) ou Refrigerante (600ml).
+                    </p>
+            </div>                
         </section>
         <section id="pedido">
             <form action="" method="post" autocomplete="on">               
@@ -74,69 +74,47 @@
                 
                 <p>
                     <fieldset>
+                        <legend>Lanches</legend>
                         <label for="ilach">Lanche</label>
                         <select name="lanch" id="ilanch" placeholder="--Selecione Um--">
-                        
                             <option value="NO">--Selecione--</option>
                             <option value="BS">Bacon Sublime</option>
                             <option value="SM">Saladinha Monster</option>
                             <option value="OGC">Ovos da Golden Chicken</option>
                             <option value="DE">Dog e Eu</option>
                             <option value="TJM">Tudo Junto e Mixed</option>
-                        
-                            <optgroup label="Bebidas">
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                            </optgroup>
-                            <optgroup label="Sobrimesas">
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                            </optgroup>
                         </select>
-                        
-                                        </p>
+                </p>
                                        
-                                        <p>
+                <p>
                         <label for="iq1">Quant.</label>
                         <input type="number" name="q1" id="iq1" max="10" min="1" required>
-                                        </p>
+                </p>
                         
-                                        <p>
-                        
+                    <p>        
                         <input type="radio" name="acomp" id="iscombo">
                         <label for="iscombo">Só o Lanche</label>
                         <input type="radio" name="acomp" id="icombo">
                         <label for="icombo">Com Combo</label><br>
                         <label for="iq2">Quant.</label>
-                        <input type="number" name="q2" id="iq2" min="0" max="10">
-                        
-                        
-                        
-                                        </p>
-                    </fieldset>
+                        <input type="number" name="q2" id="iq2" min="0" max="10">        
+                </p>
+            </fieldset>
 
-                <fieldset>
-                    <legend>Batatas</legend>
-                    <p>
-                        <label for="ibat">Tamanho</label>
-                            <select name="bat" id="ibat">
-                                <option value="NO">--Selecione--</option>
-                                <option value="BP">Fome das 8h (P)</option>
-                                <option value="BM">Fome das 12h (M)</option>
-                                <option value="BG">Fome das 16h (G)</option>
-                                <option value="BGG">Fome das 20h (GG)</option>
-                            </select>
-                    
-                    </p>
-                </fieldset>
+            <fieldset>
+                <legend>Batatas</legend>
+                <p>
+                    <label for="ibat">Tamanho</label>
+                        <select name="bat" id="ibat">
+                            <option value="NO">--Selecione--</option>
+                            <option value="BP">Fome das 8h (P)</option>
+                            <option value="BM">Fome das 12h (M)</option>
+                            <option value="BG">Fome das 16h (G)</option>
+                            <option value="BGG">Fome das 20h (GG)</option>
+                        </select>
+                
+                </p>
+            </fieldset>
 
                 <fieldset>
                     <legend>Bebidas</legend>
@@ -161,7 +139,33 @@
                             </select>
                     </p>
                 </fieldset>
-            
+                <fieldset>
+                    <legend>Sobrimesas</legend>
+                    <p>
+                        <label for="isob">Sorvetes Artesanais</label>
+                        <select name="sob" id="isob">
+                            <option value="NO">--Selecione--</option>
+                            <optgroup label="Sobrimesas +18">
+                                <option value="apm">Alice no Pais das Maravilhar</option>
+                                <option value="ffc">Fantastica Fabrica de Chocolate</option>
+                                <option value="pc">Piratas do Caribe</option>
+                                <option value="mdl">Medos e Delirios em Lasvegas</option>
+                                <option value="js">Janela Secrea</option>
+                            </optgroup>
+                            <optgroup label="Sobrimesas Livre">
+                                <option value="mora">Moramgo</option>
+                                <option value="choc">Chocolate</option>
+                                <option value="abac">Abacaxi</option>
+                                <option value="mara">Maracuja</option>
+                                <option value="maca">Maçã</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
             </form>
 
         </section>

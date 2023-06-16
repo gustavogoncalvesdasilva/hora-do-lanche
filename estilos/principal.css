@@ -86,6 +86,10 @@ header h1 img {
     color: black;
 }
 
+header ul {
+    list-style-type: none;
+}
+
 #m2{ display: none;}
 
 /*
@@ -149,7 +153,7 @@ main h1 {
     background: url("../Imagens/sublime-bacon-300.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: right bottom;
+    background-position: right center;
 } 
 
 #promo2 {
@@ -157,7 +161,7 @@ main h1 {
     background: url("../Imagens/saladinha-monter-300.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: right bottom;
+    background-position: left center;
 } 
 
 main div {
@@ -168,7 +172,7 @@ main div {
 
 main h1 {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px 20px 0px 0px;
     background-color: white;
     font-family: var(--font2);
@@ -185,9 +189,9 @@ main .info {
     text-align: center;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.646);
-
-
 }
+
+
 
 
 
