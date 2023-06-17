@@ -150,15 +150,15 @@ main h1 {
 
 #promo1 {
     height: 400px;
-    background: url("../Imagens/sublime-bacon-300.jpg") no-repeat;
+    background: url("../Imagens/sublime-bacon-200.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: right bottom;
 } 
 
 #promo2 {
     height: 400px;
-    background: url("../Imagens/saladinha-monter-300.jpg") no-repeat;
+    background: url("../Imagens/saladinha-monter-200.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: left center;
