@@ -58,7 +58,7 @@
             </div>                
         </section>
         <section id="pedido">
-            <form action="" method="post" autocomplete="on">               
+            <form action="aviso.php" method="post" autocomplete="on">               
                 <fieldset>
                     <legend>Dados do Cliente</legend>
                     <p>
@@ -68,7 +68,7 @@
                     
                     <p>
                         <label for="itel">Telefone</label>
-                        <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}\d{4}$" placeholder="(xx)xxxx-xxxx">
+                        <input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="(xx)xxxx-xxxx">
                     </p>
                 </fieldset>
                 
@@ -92,10 +92,10 @@
                 </p>
                         
                     <p>        
-                        <input type="radio" name="acomp" id="iscombo">
-                        <label for="iscombo">Só o Lanche</label>
-                        <input type="radio" name="acomp" id="icombo">
-                        <label for="icombo">Com Combo</label><br>
+                        <input class="box0" type="radio" name="acomp" id="iscombo">
+                        <label class="box1" for="iscombo">Só o Lanche</label>
+                        <input class="box0" type="radio" name="acomp" id="icombo">
+                        <label class="box1" for="icombo">Com Combo</label><br>
                         <label for="iq2">Quant.</label>
                         <input type="number" name="q2" id="iq2" min="0" max="10">        
                 </p>
@@ -163,8 +163,8 @@
                     </p>
                 </fieldset>
                 <p>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                    <input class="botao" type="submit" value="Enviar">
+                    <input class="botao" type="reset" value="Limpar">
                 </p>
             </form>
 
