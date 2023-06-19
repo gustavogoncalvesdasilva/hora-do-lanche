@@ -8,9 +8,7 @@
 
 * { padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif;}
 
-body{
-    position: relative;
-}
+body{position: relative;}
 
 :root {
     --cor1:#8C1F28;
@@ -26,23 +24,20 @@ body{
 header {
     position: sticky;
     top: -1px;
-    
-    width: 92.5vw;
 
     background-image: linear-gradient(to bottom, var(--cor3), transparent);
     
     padding: 10px;
     box-shadow: 0px 0px 10px black;
-    display: inline-flex;
 }
 
 header h1 {
     font-family: var(--font1);
     font-size: 2.5em;
-    text-align: left;
+    text-align: center;
     color: white;
     padding: 10px;
-    margin-bottom: ;  
+     
 }
 
 header h1 img {
@@ -50,13 +45,9 @@ header h1 img {
     border-radius: 20%;
 }
 
-#m1 {
-    text-align: center;
-}
+#m1 {text-align: center;}
 
-#m1 li{ 
-    
-    margin-top: 20px;}
+#m1 li{margin-top: 20px;}
 
 #m1 a {
     font-family: var(--font1);
@@ -81,7 +72,7 @@ header h1 img {
     
     color: var(--cor2);
     display: block;
-    text-align: right;    
+    text-align: center;    
     padding: 10px;
     cursor: pointer;
 }
@@ -96,62 +87,6 @@ header ul {
 }
 
 #m2{ display: none;}
-
-/*
-
-.promo {
-    height: 600px;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 10px 0px 10px 0px;
-}
-
-#promo1 {
-    margin-bottom: 0%;
-    
-
-background-image: url('../Imagens/sublime-bacon-500.jpg');
-background-position:center center ;
-}
-
-#promo2 {
-    margin-top: 0%;
-
-    background-image: url('../Imagens/saladinha-monter-500.jpg');
-    background-position: center center;
-
-
-}
-
-main div {
-    padding-top: 125px;
-    padding-left: 20px;
-    width: 370px;
-}
-
-main .info {
-    padding: 20px;
-    color: black;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    text-align: center;
-    border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.646);
-
-
-}
-
-main h1 {
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px 20px 0px 0px;
-    background-color: white;
-    font-family: var(--font2);
-    font-weight: bold;
-    font-size:;
-}
-*/
 
 #promo1 {
     height: 400px;
