@@ -27,19 +27,22 @@ header {
     position: sticky;
     top: -1px;
     
+    width: 92.5vw;
+
     background-image: linear-gradient(to bottom, var(--cor3), transparent);
     
     padding: 10px;
     box-shadow: 0px 0px 10px black;
+    display: inline-flex;
 }
 
 header h1 {
     font-family: var(--font1);
     font-size: 2.5em;
-    text-align: center;
+    text-align: left;
     color: white;
     padding: 10px;
-    margin-bottom: 10px;  
+    margin-bottom: ;  
 }
 
 header h1 img {
@@ -51,7 +54,9 @@ header h1 img {
     text-align: center;
 }
 
-#m1 li{ margin-top: 20px;}
+#m1 li{ 
+    
+    margin-top: 20px;}
 
 #m1 a {
     font-family: var(--font1);
@@ -76,7 +81,7 @@ header h1 img {
     
     color: var(--cor2);
     display: block;
-    text-align: center;    
+    text-align: right;    
     padding: 10px;
     cursor: pointer;
 }
@@ -177,8 +182,9 @@ main h1 {
     border-radius: 20px 20px 0px 0px;
     background-color: white;
     font-family: var(--font2);
+    font-size: 1.7em;
     font-weight: bold;
-    font-size:1.7em;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.317);
 }
 
 main .info {
