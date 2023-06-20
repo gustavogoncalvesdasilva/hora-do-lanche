@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+@media screen and (min-width:640px) {
+   
+    
 header #burguer {display: none;}
 
 header #m1 {display: none;}
@@ -29,7 +31,24 @@ header #m1 {display: none;}
 
 #promo1 { background-color: white;
     background-image: none;
+    display: inline-flex;
     
 }
 
+.fdl{ 
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 200px;
+}
 
+#promo1 img {
+    padding:40px ;
+    display: block;
+    height: 290px;
+    width: 300px;
+    border-radius: 20%;
+    te
+}
+
+
+}
