@@ -96,7 +96,7 @@ header ul {
     background-position: right bottom;
 } 
 
-#promo1 img {display: none;}
+.fdl {display: none;}
 
 #promo2 {
     height: 400px;
