@@ -61,8 +61,8 @@ header h1 a img {
 #m1 {display: none;}
 
 #burguer { 
-    
-    color: var(--cor2);
+    font-weight: bold;
+    color: black;
     display: block;
     text-align: center;    
     padding: 10px;
@@ -77,7 +77,12 @@ header h1 a img {
 header ul {
     list-style-type: none;
 }
+/**/
 
+main { 
+    width: ;
+
+}
 
 /**/
 
