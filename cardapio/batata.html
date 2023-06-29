@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batatas</title>
-    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/cardapio.css">
+    <style>
+        :root {
+    --cor1:#6f0cacb9;
+    --cor2:#02027ba6;
+    --cor3:#044040;
+    --cor4:#810101ab;
+    --cor5:#f29f05a7; 
+        }
+
+    header{background-image: linear-gradient(to bottom, var(--cor5), transparent);}
+
+    #m1 a {
+        background-color: var(--cor5);
+    }
+
+    #m1 a:hover {color: var(--cor5);}
+
+    footer{background-image: linear-gradient(to top, var(--cor5), transparent);}
+    </style>
 </head>
 <body>
     <header>
-        <h1><img src="../Imagens/logo-hedear-100.png" alt="logo"> Snack Time</h1>
+        <h1><a href="../index.html"><img src="../Imagens/logo-hedear-100.png" alt="logo"> Snack Time</a></h1>
         <span id="burguer"  class="material-icons" onclick="clickMenu()">menu</span>
         <menu id="m1">
             <ul>
-                <li><a href="#">Lanches</a></li>
-                <li><a href="#">Batata</a></li>
-                <li><a href="#">Bebidas</a></li>
-                <li><a href="#">Sobremesas</a></li>
+                <li><a href="lanches.html">Lanches</a></li>
+                <li><a href="batata.html">Batata</a></li>
+                <li><a href="bebeidas.html">Bebidas</a></li>
+                <li><a href="sobremasas.html">Sobremesas</a></li>
             </ul>
         </menu>
     </header>

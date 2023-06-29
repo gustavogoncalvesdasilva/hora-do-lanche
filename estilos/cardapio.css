@@ -7,14 +7,121 @@
 * { padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif;}
 
 :root {
-    --cor1:#8C1F28;
-    --cor2:#591C21;
-    --cor3:#044040;
-    --cor4:#D92525;
-    --cor5:#F2F2F2;
-
     --font1: 'Lobster Two', 'cursive';
     --font2: 'Caveat', 'cursive'; 
+}
+
+body{position: relative;}
+
+header {
+    position: sticky;
+    top: -1px;   
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header h1 a {
+    text-shadow: 0px 0px 3px black;
+    font-family: var(--font1);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header h1 a img {
+    width: 50px;
+    border-radius: 20%;
+}
+
+#m1 {text-align: center;}
+
+#m1 li{margin-top: 20px;}
+
+#m1 a {
+    font-family: var(--font1);
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20%;
+    opacity: 80%;
+}
+
+#m1 a:hover {
+    text-decoration: underline; 
+    background-color: white;
+}
+
+#m1 {display: none;}
+
+#burguer { 
+    
+    color: var(--cor2);
+    display: block;
+    text-align: center;    
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    
+    color: black;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+
+/**/
+
+footer {
+    padding: 10px;   
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+footer img{ 
+    margin-right: 5px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+footer ul {
+    list-style-type: none;
+    column-count: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a { 
+    text-decoration: none;
+    color:black;
+    
+}
+footer a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+ }
+
+ @media screen and (min-width:1082px) {
+    #burguer {display: none;}
+
+    #m1 {display: block;
+    margin-top: 20px;}
+
+    #m1 ul li {
+    display: inline;
+    margin: 10px;
+    }
 }
 
   
