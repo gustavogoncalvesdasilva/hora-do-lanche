@@ -62,8 +62,9 @@ header h1 img {
 }
 
 #m1 a:hover {
-    font-weight: bolder;
     text-decoration: underline; 
+    background-color: white;
+    color: var(--cor2);
 }
 
 #m1 {display: none;}
