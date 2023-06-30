@@ -47,7 +47,18 @@
         cursor: pointer;
     }
 
-    main p {
+    main h1 {margin-bottom: 20px;}
+
+    main p { 
+        width: 200px;
+        padding: 8px;
+        font-weight: bold;
+        border: 1px solid var(--cor1);
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 5px var(--cor1);
+    }
+
+    main #mdi {
         width: 30px;
         background-color: white;
         color: red;
@@ -79,6 +90,8 @@
     <main>
        <section>
         <h1>Sorvetes</h1>
+        <p>Tamanho Padrão: 300ml <br>
+            Valor Padrão: <R1>R$10,00</R1></p>
         <ul>
             <li>Maracuja</li>
             <li>Chocolate</li>
@@ -87,8 +100,10 @@
             <li>uva</li>
         </ul>
        </section>
-       <section id="spdm">
-        <h1>Milk Shake <p>+18</p></h1>
+       <section >
+        <h1>Milk Shake <p id="mdi">+18</p></h1>
+        <p>Tamanho Padrão: 500ml <br>
+        Valor Padrão: <R1>R$25,00</R1></p>
         <dl>
             <dt>Alice no Pais das Maravilhar</dt>
             <dd>Sorvete de maracuja, leite e tequila</dd>
