@@ -17,13 +17,30 @@
     --cor5:#f29f05a7; 
     }
 
-    header {background-image: linear-gradient(to bottom, var(--cor4), transparent);}
+    header {/*background-image: linear-gradient(to bottom, var(--cor4),transparent);*/
+    background-color: var(--cor4);}
 
     #m1 a {
         background-color: var(--cor4);
     }
 
     #m1 a:hover {color: var(--cor4);}
+
+    main {
+        background: url("../Imagens/lanche-1.jpg") no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    main section {background-color: white;
+    opacity: 70%;
+padding: 10px;
+border-radius: 5px;}
+
+    main h1, dt {
+        color: var(--cor4);
+    }
+
 
     footer {background-image: linear-gradient(to top, var(--cor4), transparent);}
     </style>
@@ -42,27 +59,26 @@
         </menu>
     </header>
     <main>
-        <h1></h1>
+    <section>
+        <h1>Lanches</h1>
        <!--•	Listas com Definições: A tag <dl> é para criar lista com definições, <dt> é usado para reconhecer o item da lista e <dd> é usado para colocar a definição do item. Esse tipo de lista tem mais preferência pelo google nas pesquisas-->
         <dl>
-            <dt>Bacon Sublime</dt>
+            <dt>Bacon Sublime <R1 class="valor">R$20,00</R1></dt>
             <dd>Pão de brioche, maionese artezanal, hamburguer 120g, bacon, queijo cheddar, alface, tomate, cebola roxa e picles.</dd>
 
-            <dt>Saladinha Monster</dt>
+            <dt>Saladinha Monster <R1 class="valor">R$20,00</R1></dt>
             <dd>Pão de brioche, maionese artezanal, hamburguer 90g, peito de frango empanado, queijo prato, alface, tomate e cebola.</dd>
 
-            <dt>Ovos da Golden Chicken</dt>
+            <dt>Ovos da Golden Chicken <R1 class="valor">R$28,00</R1></dt>
             <dd>Pão de brioche, maionese artezanal, peito de frango empanado, omelete de 2 queijo, alface, tomate, cebola roxa.</dd>
 
-            <dt>Dog e Eu</dt>
+            <dt>Dog e Eu <R1 class="valor">R$28,00</R1></dt>
             <dd>Pão mini Baguete 30cm, maionese artezanal, 3 Salsichas, vinagre, queijo cheddar, milho, ervilha e pure de batata. </dd>
 
-            <dt>Tudo Junto e Mixed</dt>
+            <dt>Tudo Junto e Mixed <R1 class="valor">R$35,00</R1></dt>
             <dd>Pão de brioche, maionese artezanal, pure de batata, hamburguer 90g, bacon, omelete de 2 queijo, salsicha, peito de frango empanado, vinagre, alface, cebola roxa.</dd>
-
-
-
         </dl>
+    </section>
     </main>
     <footer>
         
