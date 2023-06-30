@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snack Time - Bebidas</title>
+    <title>Snack Time - Sucos</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="shortcut icon" href="../Imagens/favicon.ico" type="image/x-icon">
@@ -25,6 +25,29 @@
 
     #m1 a:hover {color: var(--cor2);}
 
+    main {
+        background: url("../Imagens/frutas-2.jpg") no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    main h1, dt {
+        color: var(--cor2);
+    }
+
+    main p { 
+        width: 150px;
+        padding: 8px;
+        font-weight: bold;
+        border: 1px solid var(--cor2);
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 5px var(--cor2);
+    }
+
+    main abbr {
+        text-decoration: none;
+    }
+
     footer{background-image: linear-gradient(to top, var(--cor2), transparent);}
     </style>
 </head>
@@ -42,14 +65,26 @@
         </menu>
     </header>
     <main>
-        <h1></h1>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <section>
+            <h1>Sucos</h1>
+            <p>Com Leite <R1>R$15,00</R1> <br> Com Água <R1>R$12,00</R1></p>
+            <dl>
+                <dt><abbr title="lembra o gostinho do amor">Vermelho</abbr></dt>
+                <dd>Morango com leite ou água.</dd>
+
+                <dt><abbr title="desafio você desafia sua vó">Amarelo</abbr></dt>
+                <dd>Manga com leite ou água.</dd>
+
+                <dt><abbr title="equilibrando o peso... digo a balança">Verde</abbr></dt>
+                <dd>Abacaxi com Ortelã com leite ou água.</dd>
+
+                <dt><abbr title="docinho, mas não tanto quanto você">Roxo</abbr></dt>
+                <dd>uva com leite ou água.</dd>
+
+                <dt><abbr title="pode ficar tranquilo não é tang">Laranja</abbr></dt>
+                <dd>Laranja e Mamão com leite ou água.</dd>
+            </dl>
+        </section> 
     </main>
     <footer>
         

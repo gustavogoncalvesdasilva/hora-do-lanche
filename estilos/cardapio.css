@@ -92,10 +92,11 @@ main h1 {
     font-size: 3em;
 }
 
-main dt {
+main dt, abbr {
     font-family: var(--font2);
     font-weight: bolder;
     font-size: 1.8em;
+    cursor: pointer;
 }
 
 main .valor {
