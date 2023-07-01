@@ -8,7 +8,7 @@
 
 * { padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif;}
 
-body{position: relative;}
+::-webkit-scrollbar {width: 0px; height: 0px;}
 
 :root {
     --cor1:#8C1F28;
@@ -20,6 +20,8 @@ body{position: relative;}
     --font1: 'Lobster Two', 'cursive';
     --font2: 'Caveat', 'cursive'; 
 }
+
+body{position: relative;}
 
 header {
     position: sticky;
